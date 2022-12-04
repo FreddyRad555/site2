@@ -1,9 +1,9 @@
 <html>
 	<head>
-		<link rel = "stylesheet" href="style.css">
+		<link rel = "stylesheet" href="css/style.css">
 		<style>
 			.header{
-				height: 250;
+				height: 200;
                 width: 1730;
                 background-color: #b0b0b0;
                 position: static;
@@ -22,33 +22,46 @@
 				font-size: 20px;
 			}
 			.menu {
-			width:1800;
-			height:90px;
+			width:1500;
+			height:50px;
 			background:gray;
-			padding-left:20px;
 			margin-left: 17px;
-			padding-right: 50px;
 			margin-right: 15px;
-}
+			}
 			.menu a{
 				display:block;
-				background:blue;
-				width: 250px;
-				height:70px;
+				background:gray;
+				width: 200px;
+				height:30px;
 				padding-top:12px;
 				margin:7px 5px 4px 5px;
-				float:left;
+				float: left;
 				font-family:;
 				font-size:14pt;
+				font-style: bold;
 				letter-spacing:1px;
-				text-decoration:none;
 				text-align:center;
+				text-decoration: none;
 				color:white;
 				font-family:PT Sans;
+				transition-duration: 0.2s;
 			}
 			.main_menu{
-				width:1730;
-				height: 100;
+				width:1300;
+				height: 55;
+				bottom: 10%;
+				padding-left: 350px;
+				padding-right: 150px;
+			}
+			a:hover{
+				background-color: white;
+				text-decoration: underline;
+				text-decoration-color: black;
+				color: black;
+			}
+			.img {
+				margin-left: 20px;
+				width: 1800px;
 			}
 		</style>
 		
@@ -57,14 +70,13 @@
 	<body>
 		<div class="header">
 		<header>
-			<div>
              <div style="float: left">
-             	<img src= "images/header1.jpg" width="150" height="150"></div>
+             	<img src= "images/header1.jpg" width="150" height="150" alt="logo"></div>
 			<div>
 			<p>
                 <link rel="preconnect" href="https://fonts.googleapis.com">
 				<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-				<link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+				<link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap" rel="stylesheet">
 				<h2>
 					<font color = "white">Company</font>
 					<div style="float:right">
@@ -99,6 +111,10 @@
 				</div>
 				</td>
 			</tr>
-		</table>
+	</table>
+	<div class = "img" alt = "middle">
+	<img src="images/middle1.png" width = "1800px">
+		</div>
+	
 	</body>	
 </html>
